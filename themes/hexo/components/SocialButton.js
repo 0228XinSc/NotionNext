@@ -45,6 +45,34 @@ const SocialButton = () => {
             <i className='transform hover:scale-125 duration-150 fab fa-github dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
+        {CONTACT_JIKE && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'即刻'}
+            href={CONTACT_JIKE}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              className='transform hover:scale-125 duration-150 w-6'
+              src='/svg/jike.svg'
+              alt='jike'
+            />{' '}
+          </a>
+        )}
+        {CONTACT_XIAOHONGSHU && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'小红书'}
+            href={CONTACT_XIAOHONGSHU}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              className='transform hover:scale-125 duration-150 w-6'
+              src='/svg/xiaohongshu.svg'
+              alt='小红书'
+            />
+          </a>
+        )}
         {CONTACT_TWITTER && (
           <a
             target='_blank'
@@ -126,20 +154,6 @@ const SocialButton = () => {
             <i className='transform hover:scale-125 duration-150 fab fa-youtube dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
-        {CONTACT_XIAOHONGSHU && (
-          <a
-            target='_blank'
-            rel='noreferrer'
-            title={'小红书'}
-            href={CONTACT_XIAOHONGSHU}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              className='transform hover:scale-125 duration-150 w-6'
-              src='/svg/xiaohongshu.svg'
-              alt='小红书'
-            />
-          </a>
-        )}
         {CONTACT_ZHISHIXINGQIU && (
           <a
             target='_blank'
@@ -151,20 +165,6 @@ const SocialButton = () => {
               className='transform hover:scale-125 duration-150 w-6'
               src='/svg/zhishixingqiu.svg'
               alt='知识星球'
-            />{' '}
-          </a>
-        )}
-        {CONTACT_JIKE && (
-          <a
-            target='_blank'
-            rel='noreferrer'
-            title={'即刻'}
-            href={CONTACT_JIKE}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              className='transform hover:scale-125 duration-150 w-6'
-              src='/svg/jike.svg'
-              alt='jike'
             />{' '}
           </a>
         )}
