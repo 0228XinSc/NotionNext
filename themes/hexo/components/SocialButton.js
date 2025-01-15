@@ -73,7 +73,7 @@ const SocialButton = () => {
               className='transform hover:scale-125 duration-150 w-6'
               src='/svg/xiaohongshu.svg'
               alt='小红书'
-              style={{ width: '20px', height: '20px'}}
+              style={{ width: '21px', height: '21px'}}
             />
           </a>
         )}
