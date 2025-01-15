@@ -22,6 +22,7 @@ const SocialButton = () => {
 
   const CONTACT_XIAOHONGSHU = siteConfig('CONTACT_XIAOHONGSHU')
   const CONTACT_ZHISHIXINGQIU = siteConfig('CONTACT_ZHISHIXINGQIU')
+  const CONTACT_JIKE = siteConfig('CONTACT_JIKE')
   const CONTACT_WEHCHAT_PUBLIC = siteConfig('CONTACT_WEHCHAT_PUBLIC')
 
   const [qrCodeShow, setQrCodeShow] = useState(false)
@@ -150,6 +151,20 @@ const SocialButton = () => {
               className='transform hover:scale-125 duration-150 w-6'
               src='/svg/zhishixingqiu.svg'
               alt='知识星球'
+            />{' '}
+          </a>
+        )}
+        {CONTACT_JIKE && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'即刻'}
+            href={CONTACT_JIKE}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              className='transform hover:scale-125 duration-150 w-6'
+              src='/svg/jike.svg'
+              alt='jike'
             />{' '}
           </a>
         )}
