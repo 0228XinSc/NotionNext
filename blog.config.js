@@ -26,7 +26,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'NotionNext', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.xin-sc.cc', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
@@ -41,6 +41,7 @@ const BLOG = {
   CONTACT_YOUTUBE: '', // Youtube主页
   CONTACT_XIAOHONGSHU: process.env.NEXT_PUBLIC_CONTACT_XIAOHONGSHU || 'https://www.xiaohongshu.com/user/profile/603facf70000000001000cfe?xsec_token=YBIb6IZ1COgSwMQS9HrfNU3orHz0RjrlRY2JnAD4MukiQ=&xsec_source=app_share&xhsshare=CopyLink&appuid=603facf70000000001000cfe&apptime=1736877171&share_id=882eafeecc8a49218007ee46b3157e41', // 小红书主页
   CONTACT_ZHISHIXINGQIU: '', // 知识星球
+  CONTACT_JIKE: 'https://okjk.co/JfYVZz', //  即刻
   CONTACT_WEHCHAT_PUBLIC: '', // 微信公众号 格式：https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=【xxxxxx】==#wechat_redirect
 
   NOTION_HOST: process.env.NEXT_PUBLIC_NOTION_HOST || 'https://www.notion.so', // Notion域名，您可以选择用自己的域名进行反向代理，如果不懂得什么是反向代理，请勿修改此项
