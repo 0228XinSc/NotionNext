@@ -56,7 +56,13 @@ const SocialButton = () => {
               className='transform hover:scale-125 duration-150 w-6'
               src='/svg/jike.svg'
               alt='jike'
-              style={{ width: '20px', height: '20px' }}
+              style={{ 
+                  width: '20px', 
+                  height: '20px',
+                  position: 'absolute', 
+                  top: '50%', 
+                  transform: 'translateY(-50%)' 
+              }}
             />{' '}
           </a>
         )}
