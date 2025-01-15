@@ -66,12 +66,14 @@ const SocialButton = () => {
             target='_blank'
             rel='noreferrer'
             title={'小红书'}
-            href={CONTACT_XIAOHONGSHU}>
+            href={CONTACT_XIAOHONGSHU}
+            style={{ display: 'flex', alignItems: 'center' }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               className='transform hover:scale-125 duration-150 w-6'
               src='/svg/xiaohongshu.svg'
               alt='小红书'
+              style={{ width: '20px', height: '20px'}}
             />
           </a>
         )}
